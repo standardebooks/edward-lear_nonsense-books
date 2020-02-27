@@ -14,8 +14,8 @@ article{
 table td:last-child{
 	text-align: center;
 }
-/* end table */
 
+/* end table */
 /* epigraph */
 [epub|type~="epigraph"]{
 	font-style: italic;
