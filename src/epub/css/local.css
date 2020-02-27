@@ -12,12 +12,7 @@ article{
 
 /* table */
 table td:last-child{
-	text-align: right;
-}
-
-table td{
-        vertical-align: top;
-        padding: .5em;
+	text-align: center;
 }
 /* end table */
 
