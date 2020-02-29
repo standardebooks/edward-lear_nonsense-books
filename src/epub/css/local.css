@@ -10,12 +10,10 @@ article{
 	page-break-after: always;
 }
 
-/* table */
 table td:last-child{
 	text-align: center;
 }
 
-/* end table */
 /* epigraph */
 [epub|type~="epigraph"]{
 	font-style: italic;
@@ -148,3 +146,19 @@ figcaption{
 }
 
 /* end of images */
+
+/* alphabet */
+.alphabet header:first-of-type{
+	font-size:4em;
+	text-align:center;
+}
+
+.alphabet header:last-of-type{
+	font-size:3em;
+	text-align:center;
+}
+
+span.largecap{
+	font-size:2em;
+}
+/* end alphabet */
