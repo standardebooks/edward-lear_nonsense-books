@@ -113,6 +113,32 @@ p span.i3{
 }
 /* End poetry, song */
 
+/* alphabet */
+.alphabet-block-center section p:first-of-type{
+	display:inline-block;
+}
+
+.alphabet-block-center section{
+	text-align:center;
+}
+
+.alphabet-line-center p{
+	text-align:center;
+}
+
+.alphabet header p{
+	font-size:4em;
+}
+
+.bigletter{
+	font-size:3em;
+}
+
+.alphabet b{
+	font-size:2em;
+}
+/* end alphabet */
+
 /* images */
 figure.full-page{
 	/* If the image is meant to be on its own page, use this selector... */
@@ -146,19 +172,3 @@ figcaption{
 }
 
 /* end of images */
-
-/* alphabet */
-.alphabet header:first-of-type{
-	font-size:4em;
-	text-align:center;
-}
-
-.alphabet header:last-of-type{
-	font-size:3em;
-	text-align:center;
-}
-
-span.largecap{
-	font-size:2em;
-}
-/* end alphabet */
