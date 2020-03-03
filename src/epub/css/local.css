@@ -11,8 +11,8 @@ article{
 }
 
 span[epub|type~="subtitle"]{
-display: block;
-font-weight: normal;
+	display: block;
+	font-weight: normal;
 }
 
 table td:last-child{
@@ -118,41 +118,67 @@ p span.i3{
 }
 /* End poetry, song */
 
+/* limmerick */
+#nonsense-rhymes-and-pictures,
+#one-hundred-nonsense-pictures-and-rhymes,
+#twentysix-nonsense-rhymes-and-pictures{
+	text-align: center;
+}
+
+#nonsense-rhymes-and-pictures div,
+#one-hundred-nonsense-pictures-and-rhymes div,
+#twentysix-nonsense-rhymes-and-pictures div{
+	display: inline-block;
+}
+
+#nonsense-rhymes-and-pictures div p,
+#one-hundred-nonsense-pictures-and-rhymes div p,
+#twentysix-nonsense-rhymes-and-pictures div p{
+	text-align: left;
+}
+/* end limmerick */
+
 /* alphabet */
-.alphabet{
-	text-align:center;
+#nonsense-alphabets-1{
+	text-align: center;
 }
 
-.alphabet section section{
-	page-break-after:auto;
+#nonsense-alphabets-1 section section,
+#nonsense-alphabets-2 section section{
+	page-break-after: auto;
 }
 
-.alphabet p{
-	text-align:center;
+#nonsense-alphabets-1 p,
+#nonsense-alphabet-5 p{
+	text-align: center;
 }
 
-.alphabet div{
-	display:inline-block;
+#nonsense-alphabets-1 div{
+	display: inline-block;
 }
 
-.alphabet div p{
-	text-align:left;
+#nonsense-alphabets-1 div p{
+	text-align: left;
 }
 
-.alphabet header p{
+#nonsense-alphabets-1 header p,
+#nonsense-alphabets-2 header p{
 	font-size: 4em;
 }
 
-p.bigletter{
-	font-size: 3em;
-}
-
-.alphabet b{
+#nonsense-alphabets-1 p span b,
+#nonsense-alphabets-2 p span b{
 	font-size: 2em;
 }
+
+#nonsense-alphabets-1 p b{
+	font-size: 3em;
+	font-variant:normal;
+}
+
 /* end alphabet */
 
-/* images */
+/* illustration */
 figure.full-page{
 	/* If the image is meant to be on its own page, use this selector... */
 	margin: 0;
@@ -184,4 +210,4 @@ figcaption{
 	margin: 1em;
 }
 
-/* end of images */
+/* end illustration */
