@@ -136,8 +136,8 @@ p span.i3{
 #twentysix-nonsense-rhymes-and-pictures div p{
 	text-align: left;
 }
-/* end limmerick */
 
+/* end limmerick */
 /* alphabet */
 #nonsense-alphabets-1{
 	text-align: center;
@@ -173,11 +173,10 @@ p span.i3{
 
 #nonsense-alphabets-1 p b{
 	font-size: 3em;
-	font-variant:normal;
+	font-variant: normal;
 }
 
 /* end alphabet */
-
 /* illustration */
 figure.full-page{
 	/* If the image is meant to be on its own page, use this selector... */
