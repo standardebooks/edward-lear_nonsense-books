@@ -10,6 +10,11 @@ article{
 	page-break-after: always;
 }
 
+span[epub|type~="subtitle"]{
+display: block;
+font-weight: normal;
+}
+
 table td:last-child{
 	text-align: center;
 }
@@ -137,8 +142,8 @@ p span.i3{
 .alphabet b{
 	font-size: 2em;
 }
-
 /* end alphabet */
+
 /* images */
 figure.full-page{
 	/* If the image is meant to be on its own page, use this selector... */
