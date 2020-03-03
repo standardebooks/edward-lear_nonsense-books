@@ -119,23 +119,31 @@ p span.i3{
 /* End poetry, song */
 
 /* alphabet */
-.alphabet-block-center section p:first-of-type{
-	display: inline-block;
+.alphabet{
+	text-align:center;
 }
 
-.alphabet-block-center section{
-	text-align: center;
+.alphabet section section{
+	page-break-after:auto;
 }
 
-.alphabet-line-center p{
-	text-align: center;
+.alphabet p{
+	text-align:center;
+}
+
+.alphabet div{
+	display:inline-block;
+}
+
+.alphabet div p{
+	text-align:left;
 }
 
 .alphabet header p{
 	font-size: 4em;
 }
 
-.bigletter{
+p.bigletter{
 	font-size: 3em;
 }
 
