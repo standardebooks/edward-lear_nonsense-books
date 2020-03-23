@@ -1,6 +1,13 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
+#book-1-dedication,
+article,
+#nonsense-alphabets-1 section section,
+#nonsense-alphabets-2 section section{
+	page-break-after: always;
+}
+
 [epub|type~="dedication"] p{
 	text-align: center;
 	font-variant: small-caps;
@@ -172,12 +179,6 @@ p span.i10{
 /* alphabet */
 #nonsense-alphabets-1{
 	text-align: center;
-}
-
-article,
-#nonsense-alphabets-1 section section,
-#nonsense-alphabets-2 section section{
-	page-break-after: always;
 }
 
 #nonsense-alphabets-1 p,
