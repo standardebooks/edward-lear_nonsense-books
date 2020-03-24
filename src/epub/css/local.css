@@ -14,8 +14,8 @@ article,
 }
 
 footer{
-    margin-top: 1em;
-    text-align: right;
+	margin-top: 1em;
+	text-align: right;
 }
 
 span[epub|type~="subtitle"]{
@@ -179,8 +179,8 @@ p span.i10{
 #twentysix-nonsense-rhymes-and-pictures div p{
 	text-align: left;
 }
-
 /* end limmerick */
+
 /* alphabet */
 #nonsense-alphabets-1{
 	text-align: center;
@@ -213,8 +213,8 @@ p span.i10{
 	font-size: 3em;
 	font-variant: normal;
 }
-
 /* end alphabet */
+
 /* illustration */
 figure.full-page{
 	/* If the image is meant to be on its own page, use this selector... */
@@ -246,5 +246,4 @@ figcaption{
 	font-style: italic;
 	margin: 1em;
 }
-
 /* end illustration */
