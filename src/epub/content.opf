@@ -44,9 +44,7 @@
 		<meta property="se:subject">Poetry</meta>
 		<meta property="se:subject">Comedy</meta>
 		<dc:description id="description">A collection of literary nonsense in the form of poetry, prose, and limericks.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
-		</meta>
+		<meta id="long-description" property="se:long-description" refines="#description"> LONG_DESCRIPTION </meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/13650</dc:source>
 		<meta property="se:word-count">WORD_COUNT</meta>
