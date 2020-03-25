@@ -33,21 +33,6 @@ table td:last-child{
 	hyphens: none;
 }
 
-[epub|type~="epigraph"] em,
-[epub|type~="epigraph"] i{
-	font-style: normal;
-}
-
-[epub|type~="epigraph"] cite{
-	margin-top: 1em;
-	font-style: normal;
-	font-variant: small-caps;
-}
-
-[epub|type~="epigraph"] cite i{
-	font-style: italic;
-}
-
 section[epub|type~="epigraph"]{
 	text-align: center;
 }
@@ -73,10 +58,6 @@ section[epub|type~="epigraph"] > *{
 
 	section[epub|type~="epigraph"] > *{
 		margin: 0;
-	}
-
-	section[epub|type~="epigraph"] > * + *{
-		margin-top: 3em;
 	}
 }
 /* End epigraph */
@@ -105,7 +86,6 @@ section[epub|type~="epigraph"] > *{
 	margin-top: 1em;
 }
 
-[epub|type~="z3998:song"] + p,
 [epub|type~="z3998:poem"] + p{
 	text-indent: 0;
 }
