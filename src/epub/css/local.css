@@ -31,10 +31,6 @@ span[epub|type~="subtitle"]{
 	text-align: left;
 }
 
-#nonsense-alphabet-6 td{
-	vertical-align: bottom;
-}
-
 /* epigraph */
 [epub|type~="epigraph"]{
 	font-style: italic;
