@@ -23,8 +23,16 @@ span[epub|type~="subtitle"]{
 	font-weight: normal;
 }
 
-table td:last-child{
+#the-akond-of-swat table td:last-child{
 	text-align: center;
+}
+
+#nonsense-alphabet-6 table td:last-child{
+	text-align: left;
+}
+
+#nonsense-alphabet-6 td{
+	vertical-align: bottom;
 }
 
 /* epigraph */
