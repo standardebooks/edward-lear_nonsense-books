@@ -47,6 +47,7 @@
 		<meta id="long-description" property="se:long-description" refines="#description"> LONG_DESCRIPTION </meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/13650</dc:source>
+		<dc:source>https://archive.org/details/acg7624.0001.001.umich.edu</dc:source>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/edward-lear_nonsense-books</meta>
@@ -56,6 +57,9 @@
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79084245</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">ill</meta>
+		<dc:creator id="writer of introduction">The London Spectator</dc:creator>
+		<meta property="file-as" refines="#writer of introduction">London Spectator, The</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">win</meta>
 		<dc:contributor id="artist">H. Lyman Saÿen</dc:contributor>
 		<meta property="file-as" refines="#artist">Saÿen, H. Lyman</meta>
 		<meta property="se:name.person.full-name" refines="#artist">Henry Lyman Saÿen</meta>
