@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
-		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/edward-lear/nonsense-books</dc:identifier>
+		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/edward-lear_the-london-spectator/nonsense-books</dc:identifier>
 		<dc:date>1900-01-01T00:00:00Z</dc:date>
 		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
@@ -44,13 +44,15 @@
 		<meta property="se:subject">Poetry</meta>
 		<meta property="se:subject">Comedy</meta>
 		<dc:description id="description">A collection of literary nonsense in the form of poetry, prose, and limericks.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description"> LONG_DESCRIPTION </meta>
+		<meta id="long-description" property="se:long-description" refines="#description">
+			&lt;p&gt;LONG_DESCRIPTION.&lt;/p&gt;
+		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/13650</dc:source>
 		<dc:source>https://archive.org/details/acg7624.0001.001.umich.edu</dc:source>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/edward-lear_nonsense-books</meta>
+		<meta property="se:url.vcs.github">https://github.com/standardebooks/edward-lear_the-london-spectator_nonsense-books</meta>
 		<dc:creator id="author">Edward Lear</dc:creator>
 		<meta property="file-as" refines="#author">Lear, Edward</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Edward_Lear</meta>
@@ -92,6 +94,7 @@
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
 		<item href="css/local.css" id="local.css" media-type="text/css"/>
 		<item href="images/cover.svg" id="cover.svg" media-type="image/svg+xml" properties="cover-image"/>
+		<item href="images/illustration-book-3-introduction.svg" id="illustration-book-3-introduction.svg" media-type="image/svg+xml"/>
 		<item href="images/illustration-calico-pie-1.svg" id="illustration-calico-pie-1.svg" media-type="image/svg+xml"/>
 		<item href="images/illustration-calico-pie-2.svg" id="illustration-calico-pie-2.svg" media-type="image/svg+xml"/>
 		<item href="images/illustration-calico-pie-3.svg" id="illustration-calico-pie-3.svg" media-type="image/svg+xml"/>
@@ -208,6 +211,133 @@
 		<item href="images/illustration-limerick-110.svg" id="illustration-limerick-110.svg" media-type="image/svg+xml"/>
 		<item href="images/illustration-limerick-111.svg" id="illustration-limerick-111.svg" media-type="image/svg+xml"/>
 		<item href="images/illustration-limerick-112.svg" id="illustration-limerick-112.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-113.svg" id="illustration-limerick-113.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-114.svg" id="illustration-limerick-114.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-115.svg" id="illustration-limerick-115.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-116.svg" id="illustration-limerick-116.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-117.svg" id="illustration-limerick-117.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-118.svg" id="illustration-limerick-118.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-119.svg" id="illustration-limerick-119.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-120.svg" id="illustration-limerick-120.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-121.svg" id="illustration-limerick-121.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-122.svg" id="illustration-limerick-122.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-123.svg" id="illustration-limerick-123.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-124.svg" id="illustration-limerick-124.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-125.svg" id="illustration-limerick-125.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-126.svg" id="illustration-limerick-126.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-127.svg" id="illustration-limerick-127.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-128.svg" id="illustration-limerick-128.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-129.svg" id="illustration-limerick-129.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-130.svg" id="illustration-limerick-130.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-131.svg" id="illustration-limerick-131.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-132.svg" id="illustration-limerick-132.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-133.svg" id="illustration-limerick-133.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-134.svg" id="illustration-limerick-134.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-135.svg" id="illustration-limerick-135.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-136.svg" id="illustration-limerick-136.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-137.svg" id="illustration-limerick-137.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-138.svg" id="illustration-limerick-138.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-139.svg" id="illustration-limerick-139.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-140.svg" id="illustration-limerick-140.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-141.svg" id="illustration-limerick-141.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-142.svg" id="illustration-limerick-142.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-143.svg" id="illustration-limerick-143.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-144.svg" id="illustration-limerick-144.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-145.svg" id="illustration-limerick-145.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-146.svg" id="illustration-limerick-146.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-147.svg" id="illustration-limerick-147.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-148.svg" id="illustration-limerick-148.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-149.svg" id="illustration-limerick-149.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-150.svg" id="illustration-limerick-150.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-151.svg" id="illustration-limerick-151.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-152.svg" id="illustration-limerick-152.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-153.svg" id="illustration-limerick-153.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-154.svg" id="illustration-limerick-154.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-155.svg" id="illustration-limerick-155.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-156.svg" id="illustration-limerick-156.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-157.svg" id="illustration-limerick-157.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-158a.svg" id="illustration-limerick-158a.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-158b.svg" id="illustration-limerick-158b.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-159.svg" id="illustration-limerick-159.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-160.svg" id="illustration-limerick-160.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-161.svg" id="illustration-limerick-161.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-162.svg" id="illustration-limerick-162.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-163.svg" id="illustration-limerick-163.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-164.svg" id="illustration-limerick-164.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-165.svg" id="illustration-limerick-165.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-166.svg" id="illustration-limerick-166.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-167.svg" id="illustration-limerick-167.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-168.svg" id="illustration-limerick-168.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-169.svg" id="illustration-limerick-169.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-170.svg" id="illustration-limerick-170.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-171.svg" id="illustration-limerick-171.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-172.svg" id="illustration-limerick-172.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-173.svg" id="illustration-limerick-173.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-174.svg" id="illustration-limerick-174.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-175.svg" id="illustration-limerick-175.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-176.svg" id="illustration-limerick-176.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-177.svg" id="illustration-limerick-177.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-178.svg" id="illustration-limerick-178.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-179.svg" id="illustration-limerick-179.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-180.svg" id="illustration-limerick-180.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-181.svg" id="illustration-limerick-181.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-182.svg" id="illustration-limerick-182.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-183.svg" id="illustration-limerick-183.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-184.svg" id="illustration-limerick-184.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-185.svg" id="illustration-limerick-185.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-186.svg" id="illustration-limerick-186.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-187.svg" id="illustration-limerick-187.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-188.svg" id="illustration-limerick-188.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-189.svg" id="illustration-limerick-189.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-190.svg" id="illustration-limerick-190.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-191.svg" id="illustration-limerick-191.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-192.svg" id="illustration-limerick-192.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-193.svg" id="illustration-limerick-193.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-194.svg" id="illustration-limerick-194.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-195.svg" id="illustration-limerick-195.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-196.svg" id="illustration-limerick-196.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-197.svg" id="illustration-limerick-197.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-198.svg" id="illustration-limerick-198.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-199.svg" id="illustration-limerick-199.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-200.svg" id="illustration-limerick-200.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-201.svg" id="illustration-limerick-201.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-202.svg" id="illustration-limerick-202.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-203.svg" id="illustration-limerick-203.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-204.svg" id="illustration-limerick-204.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-205.svg" id="illustration-limerick-205.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-206.svg" id="illustration-limerick-206.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-207.svg" id="illustration-limerick-207.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-208.svg" id="illustration-limerick-208.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-209.svg" id="illustration-limerick-209.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-210.svg" id="illustration-limerick-210.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-211.svg" id="illustration-limerick-211.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-212.svg" id="illustration-limerick-212.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-213.svg" id="illustration-limerick-213.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-214.svg" id="illustration-limerick-214.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-215.svg" id="illustration-limerick-215.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-216.svg" id="illustration-limerick-216.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-217.svg" id="illustration-limerick-217.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-218.svg" id="illustration-limerick-218.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-219.svg" id="illustration-limerick-219.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-220.svg" id="illustration-limerick-220.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-221.svg" id="illustration-limerick-221.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-222.svg" id="illustration-limerick-222.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-223.svg" id="illustration-limerick-223.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-224.svg" id="illustration-limerick-224.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-225.svg" id="illustration-limerick-225.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-226.svg" id="illustration-limerick-226.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-227.svg" id="illustration-limerick-227.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-228.svg" id="illustration-limerick-228.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-229.svg" id="illustration-limerick-229.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-230.svg" id="illustration-limerick-230.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-231.svg" id="illustration-limerick-231.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-232.svg" id="illustration-limerick-232.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-233.svg" id="illustration-limerick-233.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-234.svg" id="illustration-limerick-234.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-235.svg" id="illustration-limerick-235.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-236.svg" id="illustration-limerick-236.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-237.svg" id="illustration-limerick-237.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-limerick-238.svg" id="illustration-limerick-238.svg" media-type="image/svg+xml"/>
 		<item href="images/illustration-mr-and-mrs-spikky-sparrow-1.svg" id="illustration-mr-and-mrs-spikky-sparrow-1.svg" media-type="image/svg+xml"/>
 		<item href="images/illustration-mr-and-mrs-spikky-sparrow-2.svg" id="illustration-mr-and-mrs-spikky-sparrow-2.svg" media-type="image/svg+xml"/>
 		<item href="images/illustration-nonsense-alphabet-1-1.svg" id="illustration-nonsense-alphabet-1-1.svg" media-type="image/svg+xml"/>
@@ -288,6 +418,58 @@
 		<item href="images/illustration-nonsense-alphabet-3-24.svg" id="illustration-nonsense-alphabet-3-24.svg" media-type="image/svg+xml"/>
 		<item href="images/illustration-nonsense-alphabet-3-25.svg" id="illustration-nonsense-alphabet-3-25.svg" media-type="image/svg+xml"/>
 		<item href="images/illustration-nonsense-alphabet-3-26.svg" id="illustration-nonsense-alphabet-3-26.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-nonsense-alphabet-5-1.svg" id="illustration-nonsense-alphabet-5-1.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-nonsense-alphabet-5-2.svg" id="illustration-nonsense-alphabet-5-2.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-nonsense-alphabet-5-3.svg" id="illustration-nonsense-alphabet-5-3.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-nonsense-alphabet-5-4.svg" id="illustration-nonsense-alphabet-5-4.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-nonsense-alphabet-5-5.svg" id="illustration-nonsense-alphabet-5-5.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-nonsense-alphabet-5-6.svg" id="illustration-nonsense-alphabet-5-6.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-nonsense-alphabet-5-7.svg" id="illustration-nonsense-alphabet-5-7.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-nonsense-alphabet-5-8.svg" id="illustration-nonsense-alphabet-5-8.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-nonsense-alphabet-5-9.svg" id="illustration-nonsense-alphabet-5-9.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-nonsense-alphabet-5-10.svg" id="illustration-nonsense-alphabet-5-10.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-nonsense-alphabet-5-11.svg" id="illustration-nonsense-alphabet-5-11.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-nonsense-alphabet-5-12.svg" id="illustration-nonsense-alphabet-5-12.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-nonsense-alphabet-5-13.svg" id="illustration-nonsense-alphabet-5-13.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-nonsense-alphabet-5-14.svg" id="illustration-nonsense-alphabet-5-14.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-nonsense-alphabet-5-15.svg" id="illustration-nonsense-alphabet-5-15.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-nonsense-alphabet-5-16.svg" id="illustration-nonsense-alphabet-5-16.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-nonsense-alphabet-5-17.svg" id="illustration-nonsense-alphabet-5-17.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-nonsense-alphabet-5-18.svg" id="illustration-nonsense-alphabet-5-18.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-nonsense-alphabet-5-19.svg" id="illustration-nonsense-alphabet-5-19.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-nonsense-alphabet-5-20.svg" id="illustration-nonsense-alphabet-5-20.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-nonsense-alphabet-5-21.svg" id="illustration-nonsense-alphabet-5-21.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-nonsense-alphabet-5-22.svg" id="illustration-nonsense-alphabet-5-22.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-nonsense-alphabet-5-23.svg" id="illustration-nonsense-alphabet-5-23.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-nonsense-alphabet-5-24.svg" id="illustration-nonsense-alphabet-5-24.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-nonsense-alphabet-5-25.svg" id="illustration-nonsense-alphabet-5-25.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-nonsense-alphabet-5-26.svg" id="illustration-nonsense-alphabet-5-26.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-nonsense-alphabet-6-1.svg" id="illustration-nonsense-alphabet-6-1.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-nonsense-alphabet-6-2.svg" id="illustration-nonsense-alphabet-6-2.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-nonsense-alphabet-6-3.svg" id="illustration-nonsense-alphabet-6-3.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-nonsense-alphabet-6-4.svg" id="illustration-nonsense-alphabet-6-4.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-nonsense-alphabet-6-5.svg" id="illustration-nonsense-alphabet-6-5.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-nonsense-alphabet-6-6.svg" id="illustration-nonsense-alphabet-6-6.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-nonsense-alphabet-6-7.svg" id="illustration-nonsense-alphabet-6-7.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-nonsense-alphabet-6-8.svg" id="illustration-nonsense-alphabet-6-8.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-nonsense-alphabet-6-9.svg" id="illustration-nonsense-alphabet-6-9.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-nonsense-alphabet-6-10.svg" id="illustration-nonsense-alphabet-6-10.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-nonsense-alphabet-6-11.svg" id="illustration-nonsense-alphabet-6-11.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-nonsense-alphabet-6-12.svg" id="illustration-nonsense-alphabet-6-12.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-nonsense-alphabet-6-13.svg" id="illustration-nonsense-alphabet-6-13.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-nonsense-alphabet-6-14.svg" id="illustration-nonsense-alphabet-6-14.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-nonsense-alphabet-6-15.svg" id="illustration-nonsense-alphabet-6-15.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-nonsense-alphabet-6-16.svg" id="illustration-nonsense-alphabet-6-16.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-nonsense-alphabet-6-17.svg" id="illustration-nonsense-alphabet-6-17.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-nonsense-alphabet-6-18.svg" id="illustration-nonsense-alphabet-6-18.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-nonsense-alphabet-6-19.svg" id="illustration-nonsense-alphabet-6-19.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-nonsense-alphabet-6-20.svg" id="illustration-nonsense-alphabet-6-20.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-nonsense-alphabet-6-21.svg" id="illustration-nonsense-alphabet-6-21.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-nonsense-alphabet-6-22.svg" id="illustration-nonsense-alphabet-6-22.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-nonsense-alphabet-6-23.svg" id="illustration-nonsense-alphabet-6-23.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-nonsense-alphabet-6-24.svg" id="illustration-nonsense-alphabet-6-24.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-nonsense-alphabet-6-25.svg" id="illustration-nonsense-alphabet-6-25.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-nonsense-alphabet-6-26.svg" id="illustration-nonsense-alphabet-6-26.svg" media-type="image/svg+xml"/>
 		<item href="images/illustration-nonsense-botany-1-1.svg" id="illustration-nonsense-botany-1-1.svg" media-type="image/svg+xml"/>
 		<item href="images/illustration-nonsense-botany-1-2.svg" id="illustration-nonsense-botany-1-2.svg" media-type="image/svg+xml"/>
 		<item href="images/illustration-nonsense-botany-1-3.svg" id="illustration-nonsense-botany-1-3.svg" media-type="image/svg+xml"/>
@@ -298,10 +480,35 @@
 		<item href="images/illustration-nonsense-botany-1-8.svg" id="illustration-nonsense-botany-1-8.svg" media-type="image/svg+xml"/>
 		<item href="images/illustration-nonsense-botany-1-9.svg" id="illustration-nonsense-botany-1-9.svg" media-type="image/svg+xml"/>
 		<item href="images/illustration-nonsense-botany-1-10.svg" id="illustration-nonsense-botany-1-10.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-nonsense-botany-2-1.svg" id="illustration-nonsense-botany-2-1.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-nonsense-botany-2-2.svg" id="illustration-nonsense-botany-2-2.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-nonsense-botany-2-3.svg" id="illustration-nonsense-botany-2-3.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-nonsense-botany-2-4.svg" id="illustration-nonsense-botany-2-4.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-nonsense-botany-2-5.svg" id="illustration-nonsense-botany-2-5.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-nonsense-botany-2-6.svg" id="illustration-nonsense-botany-2-6.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-nonsense-botany-2-7.svg" id="illustration-nonsense-botany-2-7.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-nonsense-botany-2-8.svg" id="illustration-nonsense-botany-2-8.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-nonsense-botany-2-9.svg" id="illustration-nonsense-botany-2-9.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-nonsense-botany-2-10.svg" id="illustration-nonsense-botany-2-10.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-nonsense-botany-2-11.svg" id="illustration-nonsense-botany-2-11.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-nonsense-botany-2-12.svg" id="illustration-nonsense-botany-2-12.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-nonsense-botany-3-1.svg" id="illustration-nonsense-botany-3-1.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-nonsense-botany-3-2.svg" id="illustration-nonsense-botany-3-2.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-nonsense-botany-3-3.svg" id="illustration-nonsense-botany-3-3.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-nonsense-botany-3-4.svg" id="illustration-nonsense-botany-3-4.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-nonsense-botany-3-5.svg" id="illustration-nonsense-botany-3-5.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-nonsense-botany-3-6.svg" id="illustration-nonsense-botany-3-6.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-nonsense-botany-3-7.svg" id="illustration-nonsense-botany-3-7.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-nonsense-botany-3-8.svg" id="illustration-nonsense-botany-3-8.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-nonsense-botany-3-9.svg" id="illustration-nonsense-botany-3-9.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-nonsense-botany-3-10.svg" id="illustration-nonsense-botany-3-10.svg" media-type="image/svg+xml"/>
 		<item href="images/illustration-the-broom-the-shovel-the-poker-and-the-tongs-1.svg" id="illustration-the-broom-the-shovel-the-poker-and-the-tongs-1.svg" media-type="image/svg+xml"/>
 		<item href="images/illustration-the-broom-the-shovel-the-poker-and-the-tongs-2.svg" id="illustration-the-broom-the-shovel-the-poker-and-the-tongs-2.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-the-courtship-of-the-yonghybonghybo-1.svg" id="illustration-the-courtship-of-the-yonghybonghybo-1.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-the-courtship-of-the-yonghybonghybo-2.svg" id="illustration-the-courtship-of-the-yonghybonghybo-2.svg" media-type="image/svg+xml"/>
 		<item href="images/illustration-the-daddy-longlegs-and-the-fly-1.svg" id="illustration-the-daddy-longlegs-and-the-fly-1.svg" media-type="image/svg+xml"/>
 		<item href="images/illustration-the-daddy-longlegs-and-the-fly-2.svg" id="illustration-the-daddy-longlegs-and-the-fly-2.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-the-dong-with-aluminous-nose.svg" id="illustration-the-dong-with-aluminous-nose.svg" media-type="image/svg+xml"/>
 		<item href="images/illustration-the-duck-and-the-kangaroo-1.svg" id="illustration-the-duck-and-the-kangaroo-1.svg" media-type="image/svg+xml"/>
 		<item href="images/illustration-the-duck-and-the-kangaroo-2.svg" id="illustration-the-duck-and-the-kangaroo-2.svg" media-type="image/svg+xml"/>
 		<item href="images/illustration-the-duck-and-the-kangaroo-3.svg" id="illustration-the-duck-and-the-kangaroo-3.svg" media-type="image/svg+xml"/>
@@ -327,6 +534,9 @@
 		<item href="images/illustration-the-owl-and-the-pussycat-1.svg" id="illustration-the-owl-and-the-pussycat-1.svg" media-type="image/svg+xml"/>
 		<item href="images/illustration-the-owl-and-the-pussycat-2.svg" id="illustration-the-owl-and-the-pussycat-2.svg" media-type="image/svg+xml"/>
 		<item href="images/illustration-the-owl-and-the-pussycat-3.svg" id="illustration-the-owl-and-the-pussycat-3.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-the-pelican-chorus.svg" id="illustration-the-pelican-chorus.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-the-pobble-who-has-no-toes.svg" id="illustration-the-pobble-who-has-no-toes.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-the-quangle-wangles-hat.svg" id="illustration-the-quangle-wangles-hat.svg" media-type="image/svg+xml"/>
 		<item href="images/illustration-the-story-of-the-four-little-children-who-went-round-the-world-1.svg" id="illustration-the-story-of-the-four-little-children-who-went-round-the-world-1.svg" media-type="image/svg+xml"/>
 		<item href="images/illustration-the-story-of-the-four-little-children-who-went-round-the-world-2.svg" id="illustration-the-story-of-the-four-little-children-who-went-round-the-world-2.svg" media-type="image/svg+xml"/>
 		<item href="images/illustration-the-story-of-the-four-little-children-who-went-round-the-world-3.svg" id="illustration-the-story-of-the-four-little-children-who-went-round-the-world-3.svg" media-type="image/svg+xml"/>
@@ -351,6 +561,7 @@
 		<item href="images/illustration-the-table-and-the-chair-1.svg" id="illustration-the-table-and-the-chair-1.svg" media-type="image/svg+xml"/>
 		<item href="images/illustration-the-table-and-the-chair-2.svg" id="illustration-the-table-and-the-chair-2.svg" media-type="image/svg+xml"/>
 		<item href="images/illustration-the-table-and-the-chair-3.svg" id="illustration-the-table-and-the-chair-3.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-the-two-old-bachelors.svg" id="illustration-the-two-old-bachelors.svg" media-type="image/svg+xml"/>
 		<item href="images/logo.svg" id="logo.svg" media-type="image/svg+xml"/>
 		<item href="images/titlepage.svg" id="titlepage.svg" media-type="image/svg+xml"/>
 		<item href="text/book-1.xhtml" id="book-1.xhtml" media-type="application/xhtml+xml" properties="svg"/>
