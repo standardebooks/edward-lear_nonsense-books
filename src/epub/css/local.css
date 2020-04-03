@@ -68,14 +68,12 @@ section[epub|type~="epigraph"] > *{
 
 /* poetry, song */
 [epub|type~="z3998:song"] p,
-[epub|type~="z3998:verse"] p,
 [epub|type~="z3998:poem"] p{
 	text-align: left;
 	text-indent: 0;
 }
 
 [epub|type~="z3998:song"] p > span,
-[epub|type~="z3998:verse"] p > span,
 [epub|type~="z3998:poem"] p > span{
 	display: block;
 	text-indent: -1em;
@@ -83,13 +81,11 @@ section[epub|type~="epigraph"] > *{
 }
 
 [epub|type~="z3998:song"] p > span + br,
-[epub|type~="z3998:verse"] p > span + br,
 [epub|type~="z3998:poem"] p > span + br{
 	display: none;
 }
 
 [epub|type~="z3998:song"] p + p,
-[epub|type~="z3998:verse"] p + p,
 [epub|type~="z3998:poem"] p + p{
 	margin-top: 1em;
 }
