@@ -26,10 +26,6 @@ span[epub|type~="subtitle"]{
 	text-align: center;
 }
 
-#nonsense-alphabet-6 table td:last-child{
-	text-align: left;
-}
-
 /* epigraph */
 [epub|type~="epigraph"]{
 	font-style: italic;
@@ -186,6 +182,9 @@ p span#i10{
 	font-variant: normal;
 }
 /* end alphabet */
+
+/* short story */
+/* end short story */
 
 /* illustration */
 figure.full-page{
