@@ -186,22 +186,12 @@ p span#i10{
 /* sheet music */
 #sheet-music-the-pelican-chorus header p,
 #sheet-music-the-courtship-of-the-yonghybonghybo header p{
-	font-size: 3em;
+	font-size: 2em;
 	text-align: center;
 }
 /* end sheet music */
 
 /* illustration */
-figure.full-page{
-	/* If the image is meant to be on its own page, use this selector... */
-	margin: 0;
-	max-height: 100%;
-	page-break-before: always;
-	page-break-after: always;
-	page-break-inside: avoid;
-	text-align: center;
-}
-
 figure{
 	/* If the image is meant to be inline with the text, use this selector... */
 	margin: 1em auto;
