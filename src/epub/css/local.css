@@ -10,6 +10,11 @@ article,
 [epub|type~="dedication"] p{
 	text-align: center;
 	font-variant: small-caps;
+	text-indent: 0;
+}
+
+[epub|type~="dedication"] i{
+	font-variant: normal;
 }
 
 footer{
@@ -123,7 +128,7 @@ p span.i9{
 	padding-left: 10em;
 }
 
-p span#i10{
+p span.i10{
 	text-indent: -1em;
 	padding-left: 11em;
 }
@@ -136,13 +141,12 @@ p span#i10{
 	text-align: center;
 }
 
-#nonsense-rhymes-and-pictures div,
+#nonsense-rhymes-and-pictures p,
 #one-hundred-nonsense-pictures-and-rhymes div,
 #twentysix-nonsense-rhymes-and-pictures div{
 	display: inline-block;
 }
 
-#nonsense-rhymes-and-pictures div p,
 #one-hundred-nonsense-pictures-and-rhymes div p,
 #twentysix-nonsense-rhymes-and-pictures div p{
 	text-align: left;
