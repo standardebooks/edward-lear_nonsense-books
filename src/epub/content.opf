@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
-		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/edward-lear_the-london-spectator/nonsense-books</dc:identifier>
+		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/edward-lear/nonsense-books</dc:identifier>
 		<dc:date>2020-06-11T22:07:27Z</dc:date>
 		<meta property="dcterms:modified">2020-06-11T22:07:27Z</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
@@ -54,14 +54,14 @@
 		<dc:source>https://archive.org/details/acg7624.0001.001.umich.edu</dc:source>
 		<meta property="se:word-count">28539</meta>
 		<meta property="se:reading-ease.flesch">74.32</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/edward-lear_the-london-spectator_nonsense-books</meta>
+		<meta property="se:url.vcs.github">https://github.com/standardebooks/edward-lear_nonsense-books</meta>
 		<dc:creator id="author">Edward Lear</dc:creator>
 		<meta property="file-as" refines="#author">Lear, Edward</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Edward_Lear</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79084245</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">ill</meta>
-		<dc:creator id="writer-of-introduction">The London Spectator</dc:creator>
+		<dc:contributor id="writer-of-introduction">The London Spectator</dc:contributor>
 		<meta property="file-as" refines="#writer-of-introduction">London Spectator, The</meta>
 		<meta property="role" refines="#writer-of-introduction" scheme="marc:relators">win</meta>
 		<dc:contributor id="artist">H. Lyman Saÿen</dc:contributor>
