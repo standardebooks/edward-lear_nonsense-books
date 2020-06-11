@@ -4,7 +4,12 @@
 article,
 #nonsense-alphabets-1 section section,
 #nonsense-alphabets-2 section section{
+	margin-bottom: 3em;
 	page-break-after: always;
+}
+
+.signature{
+	font-variant: small-caps;
 }
 
 [epub|type~="dedication"] p{
@@ -33,7 +38,6 @@ span[epub|type~="subtitle"]{
 
 /* epigraph */
 [epub|type~="epigraph"]{
-	font-style: italic;
 	hyphens: none;
 }
 
@@ -52,6 +56,10 @@ section > header [epub|type~="epigraph"] + *{
 	section > header [epub|type~="epigraph"]{
 		display: table;
 	}
+}
+
+[epub|type~="epigraph"] div{
+	margin: 1em;
 }
 /* End epigraph */
 
@@ -137,19 +145,14 @@ p span.i10{
 /* limmerick */
 #nonsense-rhymes-and-pictures,
 #one-hundred-nonsense-pictures-and-rhymes,
-#twentysix-nonsense-rhymes-and-pictures{
+#twenty-six-nonsense-rhymes-and-pictures{
 	text-align: center;
 }
 
 #nonsense-rhymes-and-pictures p,
-#one-hundred-nonsense-pictures-and-rhymes div,
-#twentysix-nonsense-rhymes-and-pictures div{
+#one-hundred-nonsense-pictures-and-rhymes p,
+#twenty-six-nonsense-rhymes-and-pictures p{
 	display: inline-block;
-}
-
-#one-hundred-nonsense-pictures-and-rhymes div p,
-#twentysix-nonsense-rhymes-and-pictures div p{
-	text-align: left;
 }
 /* end limmerick */
 
