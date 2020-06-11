@@ -188,6 +188,10 @@ p span.i10{
 	font-size: 3em;
 	font-variant: normal;
 }
+
+#nonsense-alphabets-1 section div + p{
+	margin-top: 1em;
+}
 /* end alphabet */
 
 /* sheet music */
