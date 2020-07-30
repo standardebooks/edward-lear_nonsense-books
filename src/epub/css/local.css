@@ -5,7 +5,7 @@ article,
 #nonsense-alphabets-1 section section,
 #nonsense-alphabets-2 section section{
 	margin-bottom: 3em;
-	page-break-after: always;
+	break-after: page;
 }
 
 .signature{
@@ -39,6 +39,7 @@ span[epub|type~="subtitle"]{
 /* epigraph */
 [epub|type~="epigraph"]{
 	hyphens: none;
+	-epub-hyphens: none;
 }
 
 section > header [epub|type~="epigraph"]{
