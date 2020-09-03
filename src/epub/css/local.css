@@ -27,11 +27,6 @@ footer{
 	text-align: right;
 }
 
-span[epub|type~="subtitle"]{
-	display: block;
-	font-weight: normal;
-}
-
 #the-akond-of-swat table td:last-child{
 	text-align: center;
 }
