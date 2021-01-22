@@ -211,10 +211,6 @@ figure img{
 	max-width: 100%;
 }
 
-figure + p{
-	text-indent: 0;
-}
-
 figcaption{
 	font-style: italic;
 	margin: 1em;
