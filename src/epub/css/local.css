@@ -200,7 +200,7 @@ p span.i10{
 
 /* illustration */
 figure{
-	/* If the image is meant to be inline with the text, use this selector... */
+	break-inside: avoid;
 	margin: 1em auto;
 	text-align: center;
 }
