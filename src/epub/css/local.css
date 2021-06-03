@@ -48,10 +48,6 @@ section > header [epub|type~="epigraph"]{
 	text-align: initial;
 }
 
-section > header [epub|type~="epigraph"] + *{
-	margin-top: 3em;
-}
-
 @supports(display: table){
 	section > header [epub|type~="epigraph"]{
 		display: table;
