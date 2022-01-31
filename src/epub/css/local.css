@@ -4,8 +4,8 @@
 article,
 #nonsense-alphabets-1 section section,
 #nonsense-alphabets-2 section section{
-	margin-bottom: 3em;
 	break-after: page;
+	margin-bottom: 3em;
 }
 
 [epub|type~="z3998:signature"]{
@@ -13,8 +13,8 @@ article,
 }
 
 [epub|type~="dedication"] p{
-	text-align: center;
 	font-variant: small-caps;
+	text-align: center;
 	text-indent: 0;
 }
 
@@ -124,13 +124,13 @@ p span.i8{
 }
 
 p span.i9{
-	text-indent: -1em;
 	padding-left: 10em;
+	text-indent: -1em;
 }
 
 p span.i10{
-	text-indent: -1em;
 	padding-left: 11em;
+	text-indent: -1em;
 }
 /* End poetry, song */
 
