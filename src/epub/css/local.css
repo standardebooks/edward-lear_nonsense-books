@@ -132,6 +132,11 @@ p span.i10{
 	padding-left: 11em;
 	text-indent: -1em;
 }
+
+[epub|type~="z3998:poem"] hgroup p,
+[epub|type~="z3998:song"] hgroup p{
+	text-align: center;
+}
 /* End poetry, song */
 
 /* limerick */
