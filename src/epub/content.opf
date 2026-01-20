@@ -54,7 +54,7 @@
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/13650</dc:source>
 		<dc:source>https://archive.org/details/acg7624.0001.001.umich.edu</dc:source>
-		<meta property="se:word-count">28539</meta>
+		<meta property="se:word-count">28355</meta>
 		<meta property="se:reading-ease.flesch">74.73</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/edward-lear_nonsense-books</meta>
 		<dc:creator id="author">Edward Lear</dc:creator>
